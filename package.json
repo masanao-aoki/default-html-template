@@ -20,7 +20,7 @@
     "gulp": "",
     "gulp-watch": "",
     "gulp-plumber": "",
-    "gulp-sass": "",
+    "gulp-ruby-sass": "",
     "gulp-autoprefixer": "^2.1.0",
     "gulp-csscomb": ""
   }

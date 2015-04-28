@@ -1,17 +1,16 @@
 var gulp=require('gulp');
 var plumber = require("gulp-plumber");
-var sass = require('gulp-sass');
+var sass = require('gulp-ruby-sass');
 var autoprefixer = require('gulp-autoprefixer');
 var csscomb = require('gulp-csscomb');
 
 //sass
 gulp.task('sass', function () {
-    gulp.src('./sass/*.scss')
-  	.pipe(plumber())
-    .pipe(sass())
-		.pipe(autoprefixer({
-			browsers: ['last 2 versions'] // 対象ブラウザの設定
-		}))
+    return sass('./sass', {style: 'expanded',bundleExec: true})
+    .on('error', function (err) {
+      console.error('Error!', err.message);
+   	})
+    .pipe(plumber())
     .pipe(gulp.dest('./root/css'));
 });
 
