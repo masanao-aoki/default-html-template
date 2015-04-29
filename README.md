@@ -8,6 +8,16 @@
 * gulp
 * Bundler
 
+## install 実行後ローカルに落とされてくるもの
+### gulp
+* gulp
+* gulp-watch
+* gulp-plumber
+* gulp-ruby-sass
+* gulp-pleeease
+
+### gulp
+* sass
 
 ### step1
 `npm install`
