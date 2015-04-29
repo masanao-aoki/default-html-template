@@ -21,7 +21,6 @@
     "gulp-watch": "",
     "gulp-plumber": "",
     "gulp-ruby-sass": "",
-    "gulp-autoprefixer": "^2.1.0",
-    "gulp-csscomb": ""
+    "gulp-pleeease": ""
   }
 }
