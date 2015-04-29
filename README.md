@@ -16,7 +16,7 @@
 * gulp-ruby-sass
 * gulp-pleeease
 
-### gulp
+### bundler
 * sass
 
 ### step1
