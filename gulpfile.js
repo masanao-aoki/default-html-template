@@ -3,6 +3,7 @@ var plumber = require("gulp-plumber");
 var sass = require('gulp-ruby-sass');
 var pleeease = require('gulp-pleeease');
 var webpack = require('webpack-stream');
+var webpackConfig = require( './webpack.config.js' );
 
 // ソースディレクトリとか、ファイル名を指定。
 var paths = {
@@ -17,15 +18,7 @@ var paths = {
 
 gulp.task('webpack',function(){
     gulp.src([paths.jsSrc])
-    .pipe(webpack({
-      output: {
-        filename: 'main.js',
-      },
-      resolve: {
-        alias: {'is': 'is_js'},
-        extensions: ['', '.js']
-      },
-     }))
+    .pipe(webpack(webpackConfig))
     .pipe(gulp.dest(paths.jsDistSrc))
 });
 
