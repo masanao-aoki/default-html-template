@@ -15,6 +15,9 @@
 * gulp-plumber
 * gulp-ruby-sass
 * gulp-pleeease
+* webpack-stream
+* jquery
+* is_js
 
 ### bundler
 * sass
