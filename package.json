@@ -1,6 +1,6 @@
 {
-  "name": "gulp-test",
-  "version": "1.0.0",
+  "name": "default-html-template",
+  "version": "1.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/masanao-aoki/gulp-test.git"
+    "url": "https://github.com/masanao-aoki/default-html-template.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/masanao-aoki/gulp-test/issues"
+    "url": "https://github.com/masanao-aoki/default-html-template/issues"
   },
-  "homepage": "https://github.com/masanao-aoki/gulp-test",
+  "homepage": "https://github.com/masanao-aoki/default-html-template/",
   "devDependencies": {
     "gulp": "",
     "gulp-watch": "",
@@ -23,6 +23,7 @@
     "gulp-ruby-sass": "",
     "gulp-pleeease": "",
     "webpack-stream": "",
-    "jquery": ""
+    "jquery": "",
+    "is_js":""
   }
 }

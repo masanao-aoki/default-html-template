@@ -22,6 +22,7 @@ gulp.task('webpack',function(){
         filename: 'main.js',
       },
       resolve: {
+        alias: {'is': 'is_js'},
         extensions: ['', '.js']
       },
      }))
